@@ -1,5 +1,7 @@
 package presenters;
 
+import models.ScreenViewModel;
+
 public interface ScreenView {
-    public String render();
+    public String render(ScreenViewModel model);
 }
